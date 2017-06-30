@@ -1,0 +1,46 @@
+<div id="spree-header" class="myheader">
+  <header id="header" data-hook="">
+    <div class="container">
+      <div class="row">
+        <figure id="logo" class="col-md-4 col-sm-3" data-hook="">
+          <a href="/"><img src="/assets/logo/spree_50-0ae687ccd486b63b01687b1df9e5394430f6fce3ab40c28250b179be4363ddc1.png" alt="Spree 50"></a>
+        </figure>
+        <nav class="navbar col-md-8 col-sm-9" id="top-nav-bar">
+  <ul id="nav-bar" class="nav navbar-nav navbar-right" data-hook="">
+    <script>if(typeof Spree.fetch_account !== 'undefined') Spree.fetch_account()</script>
+<li><a href="/account">My Account</a></li>
+  <li><a href="/logout">Logout</a></li><li id="search-bar" data-hook="">
+      
+<form class="navbar-form" action="/products" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="✓">
+  <div class="form-group">
+      <select name="taxon" id="taxon" aria-label="Taxon" class="form-control"><option value="">All departments</option>
+<option value="1">Brands</option>
+<option value="2">Brand</option></select>
+  </div>
+  <div class="form-group">
+    <input type="search" name="keywords" id="keywords" placeholder="Search" class="form-control">
+  </div>
+  <input type="submit" value="Search" class="btn btn-success" data-disable-with="Search">
+</form>
+    </li>
+  </ul>
+</nav>
+
+      </div>
+    </div>
+  </header>
+  <div class="container">
+    <nav class="col-md-12">
+  <div id="main-nav-bar" class="navbar">
+    <ul class="nav navbar-nav" data-hook="">
+      <li id="home-link" data-hook=""><a href="/">Home</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right" data-hook="">
+      <li id="link-to-cart" data-hook=""><a class="cart-info empty" href="/cart"><span class="glyphicon glyphicon-shopping-cart"></span> Cart: (Empty)</a></li>
+      <script>Spree.fetch_cart()</script>
+    </ul>
+  </div>
+</nav>
+
+  </div>
+</div>

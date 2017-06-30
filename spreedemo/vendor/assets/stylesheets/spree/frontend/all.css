@@ -1,0 +1,29 @@
+/*
+ * This is a manifest file that'll automatically include all the stylesheets available in this directory
+ * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
+ * the top of the compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require spree/frontend
+
+ *= require_self
+ *= require_tree .
+*/
+ul.footer{
+	width: 650px;
+    margin: 0 auto;
+}
+ul.footer li {
+    display: inline-block;
+    text-align: center;
+    margin: auto 10px;
+}
+ul.footer li a{
+    font-size: 16px;
+}
+.myheader{
+	background-color: #1c7b92 !important;
+}
+
+.navbar-nav > li {
+    float: right;
+}
